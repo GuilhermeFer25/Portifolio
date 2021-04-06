@@ -283,6 +283,9 @@ header{
     object-fit: cover;
     width: 100%;
 }
+.sessao-projetos{
+    background-color: #ccc;
+}
 .projetos{
     display: flex;
     justify-content:space-evenly ;
@@ -299,7 +302,7 @@ header{
     background-color: rgb(167, 154, 154);
 
 }
-.card-img-wraper img{
+.card-img-wraper img{ 
     object-fit: cover;
     width: 100%;
     height: 100%;
