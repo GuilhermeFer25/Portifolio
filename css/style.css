@@ -600,4 +600,27 @@ footer{
     .conhecimento-header i{
         margin-left: 280px;
     }
+    @media screen and (max-width: 550px){
+        .conhecimento-header i{
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        .projetos{
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        .sessao-orcamento h1{
+            margin-top: 0px;
+            display: block;
+        }
+        .orcamento-wraper{
+            width: 100%;
+            height: 100vh;
+        }
+        footer{
+            display: inline-block;
+            font-size: 5px;
+            text-align: center;
+        }
+    }
 }
